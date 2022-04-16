@@ -32,7 +32,7 @@ function divide(array){
 }
 
 //Initialize array using prompt
-let arr = prompt("Enter your numbers").split(",")
+//let arr = prompt("Enter your numbers").split(",")
 const array=arr.map(function(item) {
         return parseInt(item, 10);
     });
